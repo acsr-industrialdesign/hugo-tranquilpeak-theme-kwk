@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1280px) {
+
+    #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture {
+        width: auto;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    
+    #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture {
+        width: 200px;
+        height: 50px;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="3"] .sidebar-profile .sidebar-profile-picture {
+        width: auto;
+        height: 30px;
+        border-radius: 0;
+        clip-path: inset(0 0 0 52px);
+        margin-left: -48px;
+    }
+}
+
+#header .header-right-picture .header-picture {
+    display: block;
+    width: 200px;
+    height: 52px;
+    border-radius: 0;
+    margin: -10px 0 0 -160px;
+}
+
+#header .header-title {
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 55px;
+    margin: 0 0 0 60px;
+
+    transition: transform .25s ease-in-out;
+    -webkit-transition: -webkit-transform .25s ease-in-out;
+}
