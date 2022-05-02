@@ -4,4 +4,5 @@ defaultContentLanguage = "de-de"
 title = 'acsr Tranquilpeak Demo Site'
 theme = "tranquilpeak"
 [params]
-  dateFormat = "02. January 2006"
+    dateFormat = "02. January 2006"
+    keywords = ["development", "next-gen", "Demo"]
