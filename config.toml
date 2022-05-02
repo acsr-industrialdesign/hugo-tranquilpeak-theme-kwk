@@ -13,8 +13,8 @@
 # use grunt task `build` to synchronize assets
 
 baseURL = "https://example.org/"
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
+languageCode = "de-de"
+defaultContentLanguage = "de-de"
 title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
@@ -135,7 +135,7 @@ canonifyurls = true
   # You must use date format used by Go Time package https://golang.org/pkg/time/
   # Months (not work with short month like "jan", "feb", etc) are translated if translation exists on i18n folders
   # Default format is: January 2, 2006
-  #  dateFormat = "2 January 2006"
+    dateFormat = "2 January 2006"
 
   # ---------------------------
   # Posts related configuration
