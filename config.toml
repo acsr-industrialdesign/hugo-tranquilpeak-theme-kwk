@@ -15,7 +15,7 @@
 baseURL = "https://example.org/"
 languageCode = "de-de"
 defaultContentLanguage = "de-de"
-title = "Hugo tranquilpeak theme"
+title = "KWK Service GmbH"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -44,17 +44,17 @@ canonifyurls = true
 # Author
 # ------
 [author]
-  name = "Firstname Lastname"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
-  location = "France"
+  name = "KWK Service GmbH"
+  bio = "Service für die dezentrale Energieversorgung"
+  job = "Dienstleistung, Wartung, Projektierung"
+  location = "NRW, Germany, Central Europe"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "thibaud.lepretre@gmail.com"
+  # gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  picture = "/kwk/images/kwk-logo-basic-2022-black-rgba.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
-  # twitter = "thibaudlepretre"
+  # twitter = "kwk_service_gmbh"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
   # googlePlus = "+ThibaudLepretre"
 
@@ -64,7 +64,7 @@ canonifyurls = true
 [[menu.main]]
   weight = 1
   identifier = "home"
-  name = "Home"
+  name = "Startseite"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
   url = "/"
 [[menu.main]]
@@ -73,18 +73,18 @@ canonifyurls = true
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
   url = "/categories"
-[[menu.main]]
-  weight = 3
-  identifier = "tags"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
-  url = "/tags"
-[[menu.main]]
-  weight = 4
-  identifier = "archives"
-  name = "Archives"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
-  url = "/archives"
+# [[menu.main]]
+#   weight = 3
+#   identifier = "tags"
+#   name = "Tags"
+#   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+#   url = "/tags"
+# [[menu.main]]
+#   weight = 4
+#   identifier = "archives"
+#   name = "Archives"
+#   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
+#   url = "/archives"
 [[menu.main]]
   weight = 5
   identifier = "about"
@@ -92,25 +92,25 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
   url = "/#about"
 
-[[menu.links]]
-  weight = 1
-  identifier = "github"
-  name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
-  url = "https://github.com/kakawait"
-[[menu.links]]
-  weight = 2
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
-
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
-  url = "/index.xml"
+# [[menu.links]]
+#   weight = 1
+#   identifier = "github"
+#   name = "GitHub"
+#   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
+#   url = "https://github.com/kakawait"
+# [[menu.links]]
+#   weight = 2
+#   identifier = "stackoverflow"
+#   name = "Stack Overflow"
+#   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
+#   url = "https://stackoverflow.com/users/636472/kakawait"
+# 
+# [[menu.misc]]
+#   weight = 1
+#   identifier = "rss"
+#   name = "RSS"
+#   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+#   url = "/index.xml"
 
 # -------------
 # Customization
@@ -202,15 +202,15 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  #  favicon = "/favicon.png"
+  #  favicon = "/kwk/images/favicon.png"
 
   # ------------------
   # External resources
   # ------------------
   # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
   # they have to be referred from static root. Example
-  #  [[params.customCSS]]
-  #    href = "css/mystyle.css"
+  [[params.customCSS]]
+    href = "kwk/css/kwk.css"
 
   # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
   # they have to be referred from static root. Example
