@@ -1,18 +1,18 @@
 ---
 title: "Hugo Installation"
 date: 2022-05-02T18:57:15+02:00
-draft: false
+draft: true
+
 ---
 
-# Hugo Installation
-
-----
-
-## [[HUGO]] The world’s fastest framework for building websites
+## The world’s fastest framework for building websites
 
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+<!--more-->
 
+{{< toc >}}
 
+{{< wide-image src="/images/powersystem.jpg" title="[PowerSystem]" >}}
 ### [Installation](https://gohugo.io/getting-started/installing/)
 
 	- Installed on [[MBP15acsr]] via homebrew at /usr/local/Cellar/hugo/0.97.3
