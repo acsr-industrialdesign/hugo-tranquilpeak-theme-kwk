@@ -12,10 +12,10 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://example.org/"
+baseURL = "http://ng.kwk-service.com/"
 languageCode = "de-de"
 defaultContentLanguage = "de-de"
-title = "KWK Service GmbH"
+title = "KWK Service GmbH NG"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -119,7 +119,7 @@ canonifyurls = true
   # -----------
   # Description
   # -----------
-  description = "Hugo tranquilpeak theme demo"
+  description = "KWK theme demo"
 
   # ------------------
   # Syntax highlighter
@@ -202,7 +202,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  #  favicon = "/kwk/images/favicon.png"
+  favicon = "/kwk/images/favicon.png"
 
   # ------------------
   # External resources
@@ -292,15 +292,15 @@ canonifyurls = true
   # Comment and uncomment to enable or disable sharing options
   # If you wanna add a sharing option, read user documentation :
   # Tranquilpeak configuration > Theme configuration > sharing-options
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fab fa-facebook-square"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
-
-  [[params.sharingOptions]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
+#  [[params.sharingOptions]]
+#    name = "Facebook"
+#    icon = "fab fa-facebook-square"
+#    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+#
+#  [[params.sharingOptions]]
+#    name = "Twitter"
+#    icon = "fab fa-twitter"
+#    url = "https://twitter.com/intent/tweet?text=%s"
 
 
 #  [[params.sharingOptions]]
@@ -308,10 +308,10 @@ canonifyurls = true
 #    icon = "fab fa-whatsapp"
 #    url = "https://wa.me/?text=%s"
 
-  [[params.sharingOptions]]
-    name = "Linkedin"
-    icon = "fab fa-linkedin"
-    url = "https://www.linkedin.com/sharing/share-offsite/?url=%s"
+#  [[params.sharingOptions]]
+#    name = "Linkedin"
+#    icon = "fab fa-linkedin"
+#    url = "https://www.linkedin.com/sharing/share-offsite/?url=%s"
 
 #  [[params.sharingOptions]]
 #    name = "Reddit"
