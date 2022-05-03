@@ -24,7 +24,7 @@
   translation: "About"
 
 - id: "global.author_picture"
-  translation: "Author's picture"
+  translation: "KWK Logo"
 
 - id: "global.share_on"
   translation: "Share on %s"
@@ -45,7 +45,7 @@
   translation: "Search date (YYYY/MM/DD)"
 
 - id: "global.read_more_about_author"
-  translation: "Read more about the author"
+  translation: "Read more about the company"
 
 - id: "global.zoom_in_on_picture"
   translation: "Zoom in on the picture"

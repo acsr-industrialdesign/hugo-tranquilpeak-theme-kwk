@@ -1,6 +1,6 @@
 ## GLOBAL ##
 - id: "global.home"
-  translation: "Home"
+  translation: "Startseite"
 
 - id: "global.categories"
   translation: "Kategorien"
@@ -24,7 +24,7 @@
   translation: "Über"
 
 - id: "global.author_picture"
-  translation: "Bild des Autors"
+  translation: "KWK Logo"
 
 - id: "global.share_on"
   translation: "Auf %s teilen"
@@ -45,13 +45,13 @@
   translation: "Suche Datum (YYYY/MM/DD)"
 
 - id: "global.read_more_about_author"
-  translation: "Lesen Sie mehr über den Autor"
+  translation: "Lesen Sie mehr über das Unternehmen"
 
 - id: "global.zoom_in_on_picture"
   translation: "Vergrößern Sie das Bild"
 
 - id: "global.go_to_homepage"
-  translation: "Gehe zur Homepage"
+  translation: "Gehe zur Startseite"
 
 - id: "global.open_link"
   translation: "Öffne den Link"
