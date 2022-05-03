@@ -29,6 +29,24 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    
+    #about #about-card #about-card-picture {
+        width: 90%;
+        height: 90%;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #about #about-card #about-card-picture {
+        width: 90%;
+        height: 90%;
+        border-radius: 0;
+    }
+}
+
 #header .header-right-picture .header-picture {
     display: block;
     width: 200px;
