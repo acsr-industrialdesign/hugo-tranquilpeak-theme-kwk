@@ -1,0 +1,9 @@
+# Define access-restrictions for robots/spiders
+# http://www.robotstxt.org/wc/norobots.html
+
+
+
+# We deny robots to access all areas of this site due to the procedural nature of the content
+
+User-agent: *
+Disallow: /
