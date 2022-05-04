@@ -15,6 +15,7 @@
     
     #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture, 
     #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture,
+    #sidebar[data-behavior="3"] .sidebar-profile .sidebar-profile-picture,
     #sidebar[data-behavior="4"] .sidebar-profile .sidebar-profile-picture, 
     #sidebar[data-behavior="5"] .sidebar-profile .sidebar-profile-picture {
         width: 200px;
@@ -27,13 +28,25 @@
 
     #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture, 
     #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture, 
-    #sidebar[data-behavior="3"] .sidebar-profile .sidebar-profile-picture {
+    #sidebar[data-behavior="3"] .sidebar-profile .sidebar-profile-picture 
+    {
         width: auto;
         height: 30px;
         border-radius: 0;
         clip-path: inset(0 0 0 52px);
         margin-left: -48px;
     }
+    #sidebar[data-behavior="4"] .sidebar-profile .sidebar-profile-picture,
+    #sidebar[data-behavior="5"] .sidebar-profile .sidebar-profile-picture {
+        width: 200px;
+        height: 50px;
+        border-radius: 0;
+    }
+
+    #header .header-title {
+        left: 170px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -42,6 +55,10 @@
         width: 90%;
         height: 90%;
         border-radius: 0;
+    }
+
+    #header .header-title {
+        left: 170px;
     }
 }
 
@@ -52,6 +69,30 @@
         height: 90%;
         border-radius: 0;
     }
+
+    #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="4"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="5"] .sidebar-profile .sidebar-profile-picture {
+        width: 200px;
+        height: 50px;
+        border-radius: 0;
+    }
+
+    #header .header-title {
+        left: 170px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+    #header[data-behavior="1"] .header-title.pushed, #header[data-behavior="2"] .header-title.pushed, 
+    #header[data-behavior="4"] .header-title.pushed, #header[data-behavior="5"] .header-title.pushed {
+        webkit-transform: translate3d(0,0,0);
+        moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+
 }
 
 #header .header-right-picture .header-picture {
@@ -63,10 +104,11 @@
 }
 
 #header .header-title {
+    position: absolute;
+    left: 60px;
     text-align: left;
     font-size: 1.6rem;
     line-height: 55px;
-    margin: 0 0 0 60px;
 
     transition: transform .25s ease-in-out;
     -webkit-transition: -webkit-transform .25s ease-in-out;
