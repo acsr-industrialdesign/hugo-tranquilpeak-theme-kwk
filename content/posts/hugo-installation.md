@@ -13,6 +13,7 @@ Hugo is one of the most popular open-source static site generators. With its ama
 {{< toc >}}
 
 {{< wide-image src="/images/powersystem.jpg" title="[PowerSystem]" >}}
+
 ### [Installation](https://gohugo.io/getting-started/installing/)
 
 	- Installed on [[MBP15acsr]] via homebrew at /usr/local/Cellar/hugo/0.97.3
@@ -41,6 +42,8 @@ Hugo is one of the most popular open-source static site generators. With its ama
 #### Next Steps [](https://gohugo.io/getting-started/installing/#next-steps)
 
 	  Now that you’ve installed Hugo, read the [Quick Start guide](https://gohugo.io/getting-started/quick-start/) and explore the rest of the documentation. If you have questions, ask the Hugo community directly by visiting the [Hugo Discussion Forum](https://discourse.gohugo.io/).
+
+{{< wide-image src="/images/biogas.jpg" title="[Biogasanlage]" >}}
 
 ### [Setup](https://gohugo.io/getting-started/quick-start/)
 
