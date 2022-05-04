@@ -14,7 +14,9 @@
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
     
     #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-picture, 
-    #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture {
+    #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-picture,
+    #sidebar[data-behavior="4"] .sidebar-profile .sidebar-profile-picture, 
+    #sidebar[data-behavior="5"] .sidebar-profile .sidebar-profile-picture {
         width: 200px;
         height: 50px;
         border-radius: 0;
