@@ -148,7 +148,7 @@
   translation: "bild"
 
 - id: "post.image.other"
-  translation: "{n} bild"
+  translation: "{n} bilder"
 
 ## FOOTER ##
 - id: "footer.all_rights_reserved"
