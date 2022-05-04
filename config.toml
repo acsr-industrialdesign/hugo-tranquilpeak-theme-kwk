@@ -21,6 +21,7 @@ disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
+#enableRobotsTXT = true
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -116,6 +117,9 @@ canonifyurls = true
 # Customization
 # -------------
 [params]
+  
+  swapPaginator = true
+
   # -----------
   # Description
   # -----------
