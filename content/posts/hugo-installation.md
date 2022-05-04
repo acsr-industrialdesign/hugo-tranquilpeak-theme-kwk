@@ -2,6 +2,8 @@
 title: "Hugo Installation"
 date: 2022-05-02T18:57:15+02:00
 draft: true
+thumbnailImagePosition: left
+thumbnailImage: /images/powersystem.jpg
 
 ---
 
