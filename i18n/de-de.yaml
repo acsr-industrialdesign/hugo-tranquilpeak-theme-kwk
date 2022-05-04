@@ -145,10 +145,10 @@
 ## POST.IMAGE ##
 
 - id: "post.image.one"
-  translation: "bild"
+  translation: "Bild"
 
 - id: "post.image.other"
-  translation: "{n} bilder"
+  translation: "{n} Bilder"
 
 ## FOOTER ##
 - id: "footer.all_rights_reserved"
