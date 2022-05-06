@@ -1,5 +1,6 @@
 {{ if not (eq .Params.showActions false) }}
 <div class="post-actions-wrap">
+  {{ if not (eq .Params.showNextPrev false) }}
   <nav {{ if eq .Params.showPagination false }}style="visibility: hidden"{{ end }}>
     <ul class="post-actions post-action-nav">
       {{ if .Site.Params.swapPaginator }}
@@ -47,6 +48,7 @@
       {{ end }}
     </ul>
   </nav>
+  {{ end }}
 <ul class="post-actions post-action-share" >
   {{ if (not (eq .Params.showSocial false)) }}
     <li class="post-action hide-lg hide-md hide-sm">
