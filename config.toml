@@ -119,6 +119,7 @@ canonifyurls = true
 [params]
   
   swapPaginator = true
+  showNextPrev = false
 
   # -----------
   # Description
