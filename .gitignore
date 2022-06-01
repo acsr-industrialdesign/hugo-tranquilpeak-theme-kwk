@@ -2,3 +2,8 @@ nil:
 public
 config.toml.backup
 Image-gallery-showcase.md
+.hugo_build.lock
+
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
