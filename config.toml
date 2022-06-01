@@ -23,6 +23,18 @@ paginate = 7
 canonifyurls = true
 #enableRobotsTXT = true
 
+languages:
+  de:
+    params:
+      navigation:
+        help: Hilfe
+    weight: 1
+  en:
+    params:
+    weight: 2
+
+
+
 [permalinks]
   posts = "/:year/:month/:slug/"
 
@@ -333,25 +345,25 @@ canonifyurls = true
 #    icon = "fab fa-hacker-news"
 #    url = "https://news.ycombinator.com/submitlink?u=%s"
 
-  # -------------------
-  # Integrated services
-  # -------------------
-  # Gravatar
-  #  >> See Author section
-  #    [author]
-  #      gravatarEmail =
-  # Google Analytics
-  #  >> See googleAnalytics
-  #    googleAnalytics =
-  # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
-  #  fbAdminIds =
-  # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
-  #  fbAppId =
+# -------------------
+# Integrated services
+# -------------------
+# Gravatar
+#  >> See Author section
+#    [author]
+#      gravatarEmail =
+# Google Analytics
+#  >> See googleAnalytics
+#    googleAnalytics =
+# Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
+#  fbAdminIds =
+# Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
+#  fbAppId =
 
-  # --------------
-  # Comment system
-  # --------------
-  [params.comment]
+# --------------
+# Comment system
+# --------------
+[params.comment]
 #    [params.comment.disqus]
 #      enable = true
 #      shortname = "KWK Service NG"
