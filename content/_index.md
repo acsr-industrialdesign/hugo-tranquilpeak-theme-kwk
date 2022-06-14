@@ -1,5 +1,5 @@
 ---
-title: "Service für die dezentrale Energieversorgung"
+title: "Service für die dezentrale Energieversorgung - main"
 draft: false
 thumbnailImagePosition: left
 thumbnailImage: /images/elefant_01.jpg
