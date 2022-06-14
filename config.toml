@@ -23,17 +23,6 @@ paginate = 7
 canonifyurls = true
 #enableRobotsTXT = true
 
-languages:
-  de:
-    params:
-      navigation:
-        help: Hilfe
-    weight: 1
-  en:
-    params:
-    weight: 2
-
-
 
 [permalinks]
   posts = "/:year/:month/:slug/"
